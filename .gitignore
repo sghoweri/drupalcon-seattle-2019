@@ -1,0 +1,7 @@
+yarn.lock
+composer.lock
+vendor
+node_modules
+node_modules/**/*
+.incache
+www

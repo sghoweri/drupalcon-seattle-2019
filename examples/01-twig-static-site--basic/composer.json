@@ -1,0 +1,30 @@
+{
+  "name": "bolt-design-system/drupalcon-2019-demo",
+  "type": "project",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "path",
+      "url": "./node_modules/@bolt/drupal-twig-extensions"
+    },
+    {
+      "type": "path",
+      "url": "./node_modules/@bolt/twig-renderer"
+    },
+    {
+      "type": "path",
+      "url": "./node_modules/@bolt/core-php"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Bolt\\": "vendor/bolt-design-system/core-php/src/",
+      "Drupal\\Core\\": "vendor/bolt-design-system/drupal-twig-extensions/src/Core"
+    }
+  },
+  "require": {
+    "bolt-design-system/twig-renderer": "*",
+    "bolt-design-system/core-php": "2.3.0",
+    "bolt-design-system/drupal-twig-extensions": "*"
+  }
+}

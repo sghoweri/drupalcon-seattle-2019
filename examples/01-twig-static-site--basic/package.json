@@ -1,0 +1,33 @@
+{
+  "name": "@bolt/drupalcon-2019-demo",
+  "version": "1.0.0",
+  "description": "Demo repo for Drupalcon Seattle (2019) presentation on Frontend Architecture for Scalable Design Systems",
+  "main": "index.js",
+  "scripts": {
+    "serve": "bolt serve",
+    "build": "bolt build",
+    "build:prod": "bolt build --prod",
+    "setup": "yarn && composer install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sghoweri/drupalcon-seattle-2019.git"
+  },
+  "keywords": [
+    "drupalcon 2019",
+    "pattern lab",
+    "design system",
+    "frontend architecture"
+  ],
+  "author": "Salem Ghoweri",
+  "license": "MIT",
+  "dependencies": {
+    "@bolt/drupal-twig-extensions": "^2.3.0",
+    "@bolt/components-button": "*",
+    "@bolt/components-icon": "*",
+    "@bolt/global": "*",
+    "@bolt/build-tools": "*",
+    "@bolt/twig-renderer": "*",
+    "@bolt/core-php": "*"
+  }
+}
